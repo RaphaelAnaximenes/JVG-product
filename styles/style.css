@@ -1,0 +1,109 @@
+body{
+   background-color: #FFFFFF;
+}
+
+.box3{
+  padding: 14px;
+  background-color: greenyellow;
+  width: 500px;
+  height: 400px;
+}
+
+.box2{
+  padding: 14px;
+  background-color: cyan;
+  width: 500px;
+  height: 100px;
+}
+
+.box1{
+  padding: 14px;
+  background-color: gray;
+  width: 500px;
+  height: 100px;
+}
+
+.box0{
+  padding: 14px;
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  margin-left: 50px;
+
+}
+
+.box0 p{
+  visibility: unset;
+  margin-top: 55%;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  }
+
+.box0 p:hover{
+  clear: both;
+  visibility: visible;
+  background-color: rgba(12, 10, 25, 0.06);
+  margin-top: 55%;
+  width: 100%;
+  height: 25%;
+  color: yellow;
+  text-align: center;
+  
+}
+
+
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    }
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10px;
+    width: 100%;
+    z-index: 10;
+    
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 20px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:  darkkhaki;
+    color: whitesmoke;
+    }
+
+
+    
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: darkkhaki;
+    color: white;
+  }
+  .topnav a.split:hover{
+    float: right;
+    background-color: darkseagreen;
+    color: white;
+  }
